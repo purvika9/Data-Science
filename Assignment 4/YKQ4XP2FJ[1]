@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script type="text/javascript" src="/app/assets/external/gtm.js"></script>
+    <script type="text/javascript">
+      if ("production" === "production" && addGTMLibrary && typeof(addGTMLibrary) === "function") {
+        addGTMLibrary("GTM-WP98PN");
+      }
+     </script>
+    <meta charset="utf-8" />
+    <link rel="icon" href="/app/favicon.ico" />
+    <script type="text/javascript" src="/app/assets/external/newrelic.js"></script>
+    <script type="text/javascript">
+      if ("production" === "production" && addNewRelicPlugin && typeof(addNewRelicPlugin) === "function") {
+        // only add New Relic Plugin For prod
+        addNewRelicPlugin("35f2b5d0eb", "482479497");
+      }
+     </script>
+    <!-- Only add metatags here that we won't need to change in app components -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="referrer" content="origin-when-cross-origin">
+    <script type="module" crossorigin src="/app/assets/index.3ac16467.js"></script>
+    <link rel="stylesheet" href="/app/assets/index.048592f5.css">
+  </head>
+  <body>
+    <!-- Google Tag Manager (noscript) - Additionally, paste this code immediately after the opening <body> tag:-->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KWJLRPD"
+      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+<!--    script to enable local development and testing on IE -->
+    <script src="https://cdn.polyfill.io/v2/polyfill.min.js"></script>
+    <div id="root"></div>
+    
+
+  </body>
+</html>
